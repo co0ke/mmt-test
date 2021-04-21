@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.ConsoleApp", "MMT.Conso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Src", "MMT.Src\MMT.Src.csproj", "{31F67191-8827-4E46-85E6-FF6D744EC42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Src.UnitTests", "MMT.Src.UnitTests\MMT.Src.UnitTests.csproj", "{C6516E74-1D1A-4AC5-9AF0-5CA33A254232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Src.UnitTests", "MMT.Src.UnitTests\MMT.Src.UnitTests.csproj", "{C6516E74-1D1A-4AC5-9AF0-5CA33A254232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Api.IntegrationTests", "MMT.Api.IntegrationTests\MMT.Api.IntegrationTests.csproj", "{0D7DE2FB-1F19-4111-A9A5-225F5D8F02B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C6516E74-1D1A-4AC5-9AF0-5CA33A254232}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6516E74-1D1A-4AC5-9AF0-5CA33A254232}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6516E74-1D1A-4AC5-9AF0-5CA33A254232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7DE2FB-1F19-4111-A9A5-225F5D8F02B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7DE2FB-1F19-4111-A9A5-225F5D8F02B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7DE2FB-1F19-4111-A9A5-225F5D8F02B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7DE2FB-1F19-4111-A9A5-225F5D8F02B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
