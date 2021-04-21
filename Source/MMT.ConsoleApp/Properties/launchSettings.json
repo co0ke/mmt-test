@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MMT.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "4"
+    }
+  }
+}
