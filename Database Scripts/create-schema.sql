@@ -33,12 +33,12 @@ CREATE TABLE shop.ProductCategoryLink
 	CONSTRAINT FK_ProductCategoryLink_SKU FOREIGN KEY (SKU) 
 	REFERENCES shop.Product (SKU)         
 	ON DELETE CASCADE
-    ON UPDATE CASCADE,
+	ON UPDATE CASCADE,
 
 	CONSTRAINT FK_ProductCategoryLink_CategoryID FOREIGN KEY (CategoryID)
 	REFERENCES Shop.Category (ID)
 	ON DELETE CASCADE
-    ON UPDATE CASCADE,
+	ON UPDATE CASCADE,
 
 	CONSTRAINT AK_SKU UNIQUE(SKU) -- Restrict product to one category max to satisfy current requirements. 
 )
